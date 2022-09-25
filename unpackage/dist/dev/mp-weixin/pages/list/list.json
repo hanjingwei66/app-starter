@@ -1,5 +1,7 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#00c170",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "cell": "plugin://contactPlugin/cell"
+  }
 }

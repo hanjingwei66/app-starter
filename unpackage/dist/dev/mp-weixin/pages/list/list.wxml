@@ -1,1 +1,1 @@
-<view>456</view>
+<view class="page"><view class="header"><view class="search_box"><text class="iconfont"></text><input class="prompt" style="width:280px;" placeholder="请输入查询关键字" data-event-opts="{{[['input',[['theBlur',['$event']]]]]}}" value="{{searchName}}" bindinput="__e"/></view></view><view class="content">123</view></view>

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3671392 */
+  src: url('~@/static/nav/iconfont.eot?t=1664126946092'); /* IE9 */
+  src: url('~@/static/nav/iconfont.eot?t=1664126946092#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('~@/static/nav/iconfont.woff2?t=1664126946092') format('woff2'),
+       url('~@/static/nav/iconfont.woff?t=1664126946092') format('woff'),
+       url('~@/static/nav/iconfont.ttf') format('truetype'),
+       url('~@/static/nav/iconfont.svg?t=1664126946092#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e6e1";
+}
+

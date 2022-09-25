@@ -10,8 +10,29 @@
 		    "path" : "pages/list/list",
 		    "style" :                                                                                    
 		    {
-		        "navigationBarTitleText": "",
+	"navigationBarBackgroundColor": "#00c170",
+	"mp-weixin": {
+						"usingComponents": {
+							"cell": "plugin://contactPlugin/cell"
+						}
+					},
 		        "enablePullDownRefresh": false
+				// "app-plus":{
+				//           "titleNView":{      //原生导航栏配置参数
+				//             // "backgroundImage":"/static/bg.png",  //设置背景图 ,
+				// 			"searchInput":{
+				// 			      "borderRadius": "15px",
+				// 			      "placeholder": "输入要搜索内容"
+				// 			    },
+				// 			    "buttons":[
+				// 			      {
+				// 			        "text":"搜索",
+				// 			        "fontSize": "16px",
+				// 			        "width": "48px"
+				// 			      }
+				// 			    ]
+				//           }
+				//         }
 		    }
 		    
 		}
